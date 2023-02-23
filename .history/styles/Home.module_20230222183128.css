@@ -1,0 +1,31 @@
+.container {
+  background-image: url('/nightskybluebg.svg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.logo {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  margin: 20px
+
+}
+
+.description {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 0 0.5rem;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

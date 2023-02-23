@@ -1,0 +1,66 @@
+.container {
+  background-image: url('/nightskybluebg.svg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.logoimage {
+  margin-top: 50px;
+}
+
+.description {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 0 0.5rem;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location {
+  color: rgb(178, 202, 255);
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 28px;
+}
+
+.forecast {
+  margin: 25px;
+  text-align: center;
+}
+
+.updated {
+  margin-top: 0;
+  font-size: 18px;
+  font-style: Italic;
+}
+
+.weather {
+  text-align: center;
+}
+
+.degrees {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.icondesc {
+  font-style: italic;
+}
+
+.day {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 0;
+  padding: 0;
+}
